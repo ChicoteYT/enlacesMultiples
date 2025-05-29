@@ -1,0 +1,81 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #2d2e83, #008D36); /* Gradiente de fondo */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+    text-align: center;
+    color: white;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #fff; /* Título en blanco */
+}
+
+p {
+    font-size: 14px;
+    color: #ddd; /* Texto de descripción más suave */
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    gap: 15px; /* Espacio entre la imagen y el texto */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.link:hover {
+    background-color: #0056b3;
+}
+
+.link-img {
+    width: 40px;  /* Ajusta el tamaño de la imagen */
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+a {
+    color: #007bff;
+}
+
+i {
+    font-size: 20px;
+}
+
+.link i {
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+}
