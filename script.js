@@ -36,6 +36,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 // Función para el efecto de scroll reveal
+
+// Función para el efecto de scroll reveal
 function revealOnScroll() {
     const reveals = document.querySelectorAll('.reveal');
     
@@ -51,3 +53,9 @@ function revealOnScroll() {
         }
     });
 }
+
+// Evento de scroll
+window.addEventListener('scroll', revealOnScroll);
+
+// Llamar a la función al cargar la página
+window.addEventListener('load', revealOnScroll);
