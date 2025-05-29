@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #2d2e83, #008D36); /* Gradiente de fondo */
     margin: 0;
     padding: 0;
     display: flex;
@@ -57,9 +56,6 @@ p {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.link:hover {
-    background-color: #0056b3;
-}
 
 .link-img {
     width: 40px;  /* Ajusta el tamaño de la imagen */
@@ -79,3 +75,38 @@ i {
 .link i {
     margin-right: 10px; /* Espacio entre el icono y el texto */
 }
+
+
+.background-images-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background: linear-gradient(to bottom, #30367A, #71AB41, #518D41, #315628, #BFDFF8);
+    overflow: hidden;
+}
+
+.background-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1.2s ease-in-out;
+}
+
+.background-images.visible {
+    opacity: 1;
+}
+
+.background-images.fade {
+    opacity: 1;
+}
+
+
