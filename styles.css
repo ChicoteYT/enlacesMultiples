@@ -276,9 +276,10 @@ i {
 }
 
 .logo-aniversario {
-    width: 70%;
-    max-width: 70%;
+    width: 30%;
+    max-width: 30%;
     height: auto;
     display: block;
+    margin: 0 auto;
     align-items: center;
 }
