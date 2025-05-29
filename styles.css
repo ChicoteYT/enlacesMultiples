@@ -294,3 +294,7 @@ i {
         max-width: 200px;
     }
 }
+
+h4 {
+    font-weight: normal;
+}
