@@ -1,7 +1,7 @@
 const images = [
-    'image/Portada_tv-1@2x-100.jpg',
-    'image/Portada_tv-2@2x-100.jpg',
-    'image/Portada_tv-3@2x-100.jpg'
+    'medios/Portada_tv-1@2x-100.jpg',
+    'medios/Portada_tv-2@2x-100.jpg',
+    'medios/Portada_tv-3@2x-100.jpg'
 ];
 
 let currentIndex = 0;

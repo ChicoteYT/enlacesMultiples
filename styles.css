@@ -15,7 +15,7 @@ body {
     position: relative;
     z-index: 1;
     padding: 20px;
-    max-width: 800px;
+    max-width: 900px;
     margin: 40px auto;
     width: 90%;
 }
@@ -41,6 +41,9 @@ h1 {
 p {
     font-size: 14px;
     color: #ddd; /* Texto de descripción más suave */
+    font-weight: bold;
+    margin-bottom: 12px;
+    line-height: 1.6;
 }
 
 .links {
@@ -253,13 +256,15 @@ i {
     margin-bottom: 20px;
 }
 
-.video-responsive iframe {
+.video-responsive video {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    object-fit: contain; /* Así el video siempre se verá completo */
     border: 0;
+    background: #000; /* Opcional: para que las barras sean negras */
 }
 
 
@@ -276,9 +281,16 @@ i {
 }
 
 .logo-aniversario {
-    width: 70%;
-    max-width: 70%;
-    height: auto;
     display: block;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .logo-aniversario {
+        max-width: 200px;
+    }
 }
