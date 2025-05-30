@@ -25,17 +25,30 @@ header {
 }
 
 .profile-img {
-    width: 180px;
-    height: 180px;
-    border-radius: 60%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
     object-fit: cover;
     margin-bottom: 15px;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 10px;
     margin: 10px 0;
     color: #fff; /* Título en blanco */
+}
+
+h3 {
+    font-size: 34px;
+    margin: 15px 0;
+    color: #fff;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: normal;
+    margin: 10px 0;
+    line-height: 1.4;
 }
 
 p {
@@ -67,7 +80,6 @@ p {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-
 .link-img {
     width: 40px;  /* Ajusta el tamaño de la imagen */
     height: 40px;
@@ -86,7 +98,6 @@ i {
 .link i {
     margin-right: 10px; /* Espacio entre el icono y el texto */
 }
-
 
 .background-images-container {
     position: fixed;
@@ -145,11 +156,6 @@ i {
         width: 35px;
         height: 35px;
     }
-
-    .profile-img {
-        width: 150px;
-        height: 150px;
-    }
 }
 
 @media screen and (max-width: 480px) {
@@ -174,11 +180,6 @@ i {
     .link-img {
         width: 30px;
         height: 30px;
-    }
-
-    .profile-img {
-        width: 120px;
-        height: 120px;
     }
 
     .links {
@@ -209,11 +210,6 @@ i {
         width: 25px;
         height: 25px;
     }
-
-    .profile-img {
-        width: 100px;
-        height: 100px;
-    }
 }
 
 /* Ajustes para pantallas grandes */
@@ -239,11 +235,6 @@ i {
         width: 45px;
         height: 45px;
     }
-
-    .profile-img {
-        width: 200px;
-        height: 200px;
-    }
 }
 
 .video-responsive {
@@ -266,7 +257,6 @@ i {
     border: 0;
     background: #000; /* Opcional: para que las barras sean negras */
 }
-
 
 /* Efecto de scroll reveal */
 .reveal {
@@ -295,6 +285,8 @@ i {
     }
 }
 
-h4 {
-    font-weight: normal;
+.inline-logo {
+    height: 0.9em;
+    vertical-align: middle;
+    margin: 0 0.2em;
 }
